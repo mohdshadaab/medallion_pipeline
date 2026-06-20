@@ -1,0 +1,4 @@
+ticket_id,created_at,resolved_at,category,priority,status,building,description,submitted_by,assigned_to,resolution_notes,cost,sla_hours,customer_tier
+TKT-20001,2025-06-01T09:00:00,2025-06-01T12:30:00,HVAC,High,Resolved,HQ Floor 1,Thermostat not responding in executive conference room,A. Patel,maintenance team,Replaced thermostat,350.00,8,enterprise
+TKT-20002,2025-06-02T10:15:00,2025-06-02T11:00:00,Electrical,Medium,Closed,Tower B,Power outlet sparking near desk 42,J. Rivera,CityWide Electric,Replaced outlet,125.00,4,strategic
+TKT-20003,2025-06-03T08:20:00,,Plumbing,Low,Open,Building 3,Faucet leaking in kitchen,M. Chen,maintenance team,,,-1,standard

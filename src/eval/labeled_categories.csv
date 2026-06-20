@@ -1,0 +1,9 @@
+text,expected_category
+"Breaker keeps tripping in server room",electrical
+"Temperature control issue and thermostat reads wrong",hvac
+"Smoke detector beeping near exit sign",fire_safety
+"Toilet is overflowing in restroom",plumbing
+"Printer not connecting to network",it_network
+"Elevator stuck between floors",vertical_transport
+"Door will not lock and badge reader failing",access
+"Restrooms have not been serviced",housekeeping

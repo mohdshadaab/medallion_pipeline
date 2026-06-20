@@ -1,0 +1,200 @@
+{
+  "agent_cache": {
+    "cache_hits": 1616,
+    "cache_misses": 3785
+  },
+  "ai_methods": [
+    {
+      "c": 1616,
+      "method": "cache"
+    },
+    {
+      "c": 4348,
+      "method": "dictionary"
+    },
+    {
+      "c": 3785,
+      "method": "heuristic"
+    }
+  ],
+  "category_breakdown": [
+    {
+      "canonical_category": "access",
+      "classification_method": "cache",
+      "ticket_count": 89
+    },
+    {
+      "canonical_category": "access",
+      "classification_method": "dictionary",
+      "ticket_count": 157
+    },
+    {
+      "canonical_category": "access",
+      "classification_method": "heuristic",
+      "ticket_count": 311
+    },
+    {
+      "canonical_category": "electrical",
+      "classification_method": "cache",
+      "ticket_count": 35
+    },
+    {
+      "canonical_category": "electrical",
+      "classification_method": "dictionary",
+      "ticket_count": 677
+    },
+    {
+      "canonical_category": "electrical",
+      "classification_method": "heuristic",
+      "ticket_count": 255
+    },
+    {
+      "canonical_category": "fire_safety",
+      "classification_method": "cache",
+      "ticket_count": 93
+    },
+    {
+      "canonical_category": "fire_safety",
+      "classification_method": "dictionary",
+      "ticket_count": 782
+    },
+    {
+      "canonical_category": "fire_safety",
+      "classification_method": "heuristic",
+      "ticket_count": 213
+    },
+    {
+      "canonical_category": "housekeeping",
+      "classification_method": "cache",
+      "ticket_count": 186
+    },
+    {
+      "canonical_category": "housekeeping",
+      "classification_method": "dictionary",
+      "ticket_count": 172
+    },
+    {
+      "canonical_category": "housekeeping",
+      "classification_method": "heuristic",
+      "ticket_count": 323
+    },
+    {
+      "canonical_category": "hvac",
+      "classification_method": "cache",
+      "ticket_count": 291
+    },
+    {
+      "canonical_category": "hvac",
+      "classification_method": "dictionary",
+      "ticket_count": 432
+    },
+    {
+      "canonical_category": "hvac",
+      "classification_method": "heuristic",
+      "ticket_count": 830
+    },
+    {
+      "canonical_category": "it_network",
+      "classification_method": "cache",
+      "ticket_count": 110
+    },
+    {
+      "canonical_category": "it_network",
+      "classification_method": "dictionary",
+      "ticket_count": 440
+    },
+    {
+      "canonical_category": "it_network",
+      "classification_method": "heuristic",
+      "ticket_count": 239
+    },
+    {
+      "canonical_category": "other",
+      "classification_method": "dictionary",
+      "ticket_count": 152
+    },
+    {
+      "canonical_category": "pest_control",
+      "classification_method": "cache",
+      "ticket_count": 1
+    },
+    {
+      "canonical_category": "pest_control",
+      "classification_method": "dictionary",
+      "ticket_count": 742
+    },
+    {
+      "canonical_category": "pest_control",
+      "classification_method": "heuristic",
+      "ticket_count": 2
+    },
+    {
+      "canonical_category": "plumbing",
+      "classification_method": "cache",
+      "ticket_count": 261
+    },
+    {
+      "canonical_category": "plumbing",
+      "classification_method": "dictionary",
+      "ticket_count": 490
+    },
+    {
+      "canonical_category": "plumbing",
+      "classification_method": "heuristic",
+      "ticket_count": 277
+    },
+    {
+      "canonical_category": "unclassified",
+      "classification_method": "cache",
+      "ticket_count": 425
+    },
+    {
+      "canonical_category": "unclassified",
+      "classification_method": "heuristic",
+      "ticket_count": 976
+    },
+    {
+      "canonical_category": "vertical_transport",
+      "classification_method": "cache",
+      "ticket_count": 125
+    },
+    {
+      "canonical_category": "vertical_transport",
+      "classification_method": "dictionary",
+      "ticket_count": 304
+    },
+    {
+      "canonical_category": "vertical_transport",
+      "classification_method": "heuristic",
+      "ticket_count": 359
+    }
+  ],
+  "gold_counts": {
+    "category_breakdown": 30,
+    "resolution_sla_summary": 580,
+    "ticket_volume_daily": 9701
+  },
+  "quality_results": [
+    {
+      "check_name": "bronze_row_count_matches_source",
+      "stage_name": "bronze",
+      "status": "passed"
+    },
+    {
+      "check_name": "gold_products_built",
+      "stage_name": "gold",
+      "status": "passed"
+    },
+    {
+      "check_name": "bronze_clean_quarantine_dedup_reconciliation",
+      "stage_name": "silver",
+      "status": "passed"
+    }
+  ],
+  "rows": {
+    "clean_rows": 9749,
+    "dedup_rows": 0,
+    "quarantine_rows": 531,
+    "total_rows": 10280
+  }
+}
